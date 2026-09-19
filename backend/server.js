@@ -12,7 +12,7 @@ const app = express();
 connectDB();
 
 // Middleware
-app.use(cors({ origin: true, credentials: true }));
+app.use(cors({ origin: "https://frontend-alpha-five-50.vercel.app", credentials: true }));
 app.use(express.json());
 
 // API Routes
